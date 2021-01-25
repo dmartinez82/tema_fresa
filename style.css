@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/*
+Theme Name: Fresita
+Theme URI: https://wordpress.org/themes/fresita/
+Author: Daniel Martínez
+Author URI: https://dmartinez99.net/
+Description: La vida de color de rosa es mejor.
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fresita
+Tags: best_theme, bitcoin
+
+*/
+
+body{
+    background-color: red;
+}
+
+h1, h3{
+    color: pink;
+}
