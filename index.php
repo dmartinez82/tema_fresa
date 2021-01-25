@@ -9,6 +9,8 @@ if ( have_posts() ) {
         the_post();
 ?>
         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        
+        <h3>Creado por <?php the_author() ?> el <?php the_date()?></h3>
 <?php
         the_excerpt();
   }
@@ -18,5 +20,6 @@ if ( have_posts() ) {
 
 ?>
 
-</body>
-</html>
+<?php
+        get_footer();
+    ?>

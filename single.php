@@ -11,5 +11,6 @@ get_header();
     <br/>
     <?php the_content(); ?>
 
-</body>
-</html>
+    <?php
+        get_footer();
+    ?>
