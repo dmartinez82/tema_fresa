@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     
-    <h1>MI PRIMER BLOG FRESITA! </h1>
+    <h1>MI PRIMER BLOG FRESITA!!!!! </h1>
 
 <?php
 
