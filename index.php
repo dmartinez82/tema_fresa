@@ -2,6 +2,7 @@
     
     <h1>MI PRIMER BLOG FRESITA!!!!! </h1>
 
+
 <?php
 
 if ( have_posts() ) {

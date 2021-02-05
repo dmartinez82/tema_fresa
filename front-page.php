@@ -1,13 +1,12 @@
 <?php
-get_header();
+    get_header();
+    the_post();
 ?>
 
-<?php the_post(); ?>
-<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+<img src="<?php echo get_template_directory_uri(); ?>/img/fondo.jpg"></img>
 
-<h3><?php the_content();?></h3>
-
-<a href="blog">Visita mi blog</a>
+<br/>
+<a href="<?php echo site_url("/pricing"); ?>">Pricing</a>
 
 <?php
     get_footer();
