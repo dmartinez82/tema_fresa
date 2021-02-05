@@ -15,12 +15,14 @@ Tags: best_theme, bitcoin
 
 */
 
-body{
-    background-color: red;
-}
+
 
 h1{
-    color: pink;
+    color: red;
+}
+
+span {
+    color: yellow;
 }
 
 

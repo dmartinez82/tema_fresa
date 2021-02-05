@@ -1,9 +1,11 @@
 <?php
-function dmartinez_scripts(){
-    wp_enqueue_style('mi-css', get_stylesheet_uri(), array(), '1.0.0');
 
+function dmartinez_scripts(){
+    
     if ( is_page('contacto') ) {
-        wp_enqueue_style( 'contacto', get_theme_file_uri('/css/page-contacto-styles.css'), array(), '1.0.0');
+        wp_enqueue_style( 'estilo-contacto', get_theme_file_uri('/css/page-contacto-styles.css'));
+    } else {
+        wp_enqueue_style('mi-css', get_stylesheet_uri());
     }
 }
 

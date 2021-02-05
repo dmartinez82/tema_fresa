@@ -3,7 +3,7 @@
     the_post();
 ?>
 
-<img src="<?php echo get_template_directory_uri(); ?>/img/fondo.jpg"></img>
+<img src="<?php echo get_theme_file_uri('/img/fondo.jpg'); ?> "></img>
 
 <br/>
 <a href="<?php echo site_url("/pricing"); ?>">Pricing</a>

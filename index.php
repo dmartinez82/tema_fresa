@@ -11,7 +11,8 @@ if ( have_posts() ) {
 ?>
         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
         
-        <h3>Creado por <?php the_author() ?> el <?php the_date()?></h3>
+        <span>Creado por <?php the_author() ?> el <?php the_date()?></span>
+        </br>
 <?php
         the_excerpt();
   }
